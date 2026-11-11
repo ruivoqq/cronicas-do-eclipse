@@ -2,7 +2,7 @@
 
 Duração sugerida: **10 a 12 minutos** + perguntas.
 **Aluno:** Matheus Henrique da Cruz Pereira · **Disciplina:** Aplicações FrontEnd · **Professor:** João Paulo Pimentel · **Data:** 11/11/2026
-Falta preencher no último slide: link do repositório no GitHub e link do jogo publicado.
+**Repositório:** https://github.com/ruivoqq/cronicas-do-eclipse
 
 Antes de começar:
 - Deixe o jogo aberto em outra aba (`cronicas-do-eclipse/index.html`) já no **menu inicial**.
