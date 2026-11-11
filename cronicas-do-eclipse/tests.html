@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Testes — Crônicas do Eclipse</title>
+  <style>
+    body { font: 14px/1.5 system-ui, sans-serif; background: #0f0c17; color: #ece6f5; padding: 24px; }
+    h1 { color: #f2b84b; }
+    .pass { color: #5fd18b; } .fail { color: #ff8a93; }
+    li { margin: 2px 0; } pre { white-space: pre-wrap; color: #ff8a93; margin: 2px 0 6px 16px; }
+    #summary { font-size: 1.2rem; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <h1>Testes das regras</h1>
+  <p>Executa as regras de domínio isoladamente, sem a interface (RNF08). Usa sementes fixas (RN25).</p>
+  <p id="summary">Executando…</p>
+  <ol id="results"></ol>
+  <script src="js/core/rng.js"></script>
+  <script src="js/data/content.js"></script>
+  <script src="js/domain/combat.js"></script>
+  <script src="js/domain/map.js"></script>
+  <script src="js/domain/run.js"></script>
+  <script src="js/domain/score.js"></script>
+  <script src="js/infra/persistence.js"></script>
+  <script src="tests/tests.js"></script>
+</body>
+</html>
